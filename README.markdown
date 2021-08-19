@@ -1,5 +1,11 @@
 # RESUME
 
+This repo shows how to generate html & pdf files from a mark down resume.
+
+It uses pandoc to process the markdown file, but because pandoc is often quite painful to install (and can have a lot of dependencies) I run pandoc from within docker. I run all this from within VSCode using the "Task explorer" extension to make running Makefile more convenient.
+
+## Instructions
+
 1. Install homebrew
 2. Install homebrew/bundler
 3. Run ```brew bundle```
