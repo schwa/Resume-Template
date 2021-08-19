@@ -1,0 +1,77 @@
+@media screen {
+
+	body {
+	    max-width: 960px;
+	}
+
+}
+
+@media print {
+
+    section {
+    	page-break-inside: avoid;
+    }
+
+}
+
+body {
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 30px;
+}
+
+ul, ol {
+    padding: 0;
+	margin: 0 0 0 24px;
+}
+
+li {
+    line-height: 2;
+}
+
+li ul, li ul {
+    margin-left: 2;
+}
+
+/*p, ul, ol {
+    line-height: 1.5;
+}*/
+
+a {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+
+
+/* Style */
+
+body {
+	font-family: Georgia, serif;
+	color: #444444;
+}
+
+h1, h2, h3, h4 {
+    color: #111111;
+    font-weight: bold;
+}
+
+p, ul, ol {
+    font-size: 14px;
+}
+
+a {
+    color: #0099ff;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: 1.5;
+    font-size: 11px;
+}
+
