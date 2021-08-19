@@ -12,3 +12,7 @@ See RESUME.markdown for a sample resume and the corresponding generated files wi
 4. Install VS Code & optionally the recommended extensions (any text editor will do but this repository is setup to use VS Code)
 5. Edit `RESUME.markdown`
 6. Run `make all`
+
+## Notes
+
+Sample resume copied from https://github.com/mszep/pandoc_resume
